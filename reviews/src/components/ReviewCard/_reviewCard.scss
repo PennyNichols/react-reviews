@@ -1,0 +1,59 @@
+
+.review-img{
+    height: 12rem;
+    width: 12rem;
+    object-fit: cover;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: 8px -5px 0px magenta;
+}
+
+.name{
+    letter-spacing: .1rem;
+}
+
+.job{
+    color: magenta;
+}
+
+.text{
+    font-size: 1rem;
+    color: rgb(98, 98, 98);
+    height: 6rem;
+}
+
+.quote-float{
+    background-color: magenta;
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 50%;
+    padding: .75rem;
+    color: white;
+    left: 16rem;
+    top: 2rem;
+}
+
+.arrow{
+    border: none;
+    background-color: transparent;
+    color: rgba(255, 0, 255, 0.459);
+    font-size: 2rem;
+    transition: all 1s;
+}
+
+.arrow:hover{
+    color: magenta;
+}
+
+.button{
+    border: none;
+    background-color: rgba(255, 0, 255, 0.109);
+    color: magenta;
+    padding: .5rem;
+    transition: all 1s;
+}
+
+.button:hover{
+    background-color: magenta;
+    color: rgb(255, 215, 255);
+}
